@@ -46,4 +46,29 @@ Initial summary	First name	Last name	Middle name	Age	Rank	Classification	Inciden
 
 ![image](https://github.com/Jaellynda/FirefightersFatalities1990-2021/assets/101296234/2ac9392e-2ac4-433a-9380-428b9f525e37)
 interactive(children=(IntSlider(value=2021, description='year', max=2021, min=1990), Output()), _dom_classes=(…
+from ipywidgets import interact
+import ipywidgets as widgets
 
+
+#Causes of deaths will be grouped into bins
+bins = {'Impact': 'Impact/Vehicle Collision', 'Vehicle Collision': 'Impact/Vehicle Collision',
+        'Trapped': 'Trapped/Exposure', 'Exposure': 'Trapped/Exposure', 
+        'Collapse': 'Collapse/Fall', 'Fall': 'Collapse/Fall', 'Smoke': 'Trapped/Exposure',
+        'Disorientation': 'Trapped/Exposure', 'Unknown': 'Other', 'Assault': 'Other',
+        'Contact': 'Other'}
+
+@interact(year=widgets.IntSlider(min=1990, max=2021, step=1, value=2021))
+def annual(year):
+     f, ax = plt.subplots(figsize=(12,6))
+     plot = vol_career.groupby([vol_career['Date of death'].dt.year, vol_career['Classification'], 
+                       vol_career['Cause of fatal injury'].replace(bins.keys(), bins.values())
+                         ])['Cause of fatal injury'].size().xs(year, 
+                       level=0).unstack(level=1).plot(kind='bar', stacked=True, ax=ax)
+     plot.set_title("Casualties by Cause of fatalities in "+ str(year), fontsize=20) 
+     plot.set_facecolor("white")
+     plot.set_xticklabels(plot.xaxis.get_majorticklabels(), rotation=2)
+     plot.set_xlabel("")
+     return 
+# Show the plot
+import matplotlib.pyplot as plt
+plt.show()
