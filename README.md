@@ -45,5 +45,8 @@ Data set variables :
 Initial summary	First name	Last name	Middle name	Age	Rank	Classification	Incident date	Date of death	Cause of fatal injury	Nature of fatal injury	Activity	Emergency	Duty	Property type	Memorial fund info	Dept name	Dept Address 1	Dept Address 2	Dept City	Dept state	Dept ZIP code
 ![image](https://github.com/Jaellynda/FirefightersFatalities1990-2021/assets/101296234/f1e3f5e1-a8fe-4e18-9553-10d465da7559)
 
+<img width="1055" alt="Screen Shot 2023-09-27 at 4 28 15 PM" src="https://github.com/Jaellynda/FirefightersFatalities1990-2021/assets/101296234/d4253464-d8c8-4784-9685-4d46ce90e468">
+
+
 
 
