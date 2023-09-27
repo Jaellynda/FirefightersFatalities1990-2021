@@ -43,3 +43,6 @@ Contributing Factors: Factors that contributed to the fatality, such as weather 
 Please note that the availability of these columns and their specific names can vary.  Refer to the dataset's documentation or metadata to understand the column names and their meanings accurately.
 Data set variables :
 Initial summary	First name	Last name	Middle name	Age	Rank	Classification	Incident date	Date of death	Cause of fatal injury	Nature of fatal injury	Activity	Emergency	Duty	Property type	Memorial fund info	Dept name	Dept Address 1	Dept Address 2	Dept City	Dept state	Dept ZIP code
+
+![image](https://github.com/Jaellynda/FirefightersFatalities1990-2021/assets/101296234/2ac9392e-2ac4-433a-9380-428b9f525e37)
+
