@@ -45,6 +45,5 @@ Data set variables :
 Initial summary	First name	Last name	Middle name	Age	Rank	Classification	Incident date	Date of death	Cause of fatal injury	Nature of fatal injury	Activity	Emergency	Duty	Property type	Memorial fund info	Dept name	Dept Address 1	Dept Address 2	Dept City	Dept state	Dept ZIP code
 ![image](https://github.com/Jaellynda/FirefightersFatalities1990-2021/assets/101296234/f1e3f5e1-a8fe-4e18-9553-10d465da7559)
 
-interactive(children=(IntSlider(value=2021, description='year', max=2021, min=1990), Output()), _dom_classes=(…
 
 
