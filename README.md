@@ -37,7 +37,7 @@ Property type: Property where fatality happened
 
 Injury Details: Specifics about the firefighter's injuries
 Contributing Factors: Factors that contributed to the fatality, such as weather conditions, equipment failure, or tactical decisions.
-
+#
 
 
 Please note that the availability of these columns and their specific names can vary.  Refer to the dataset's documentation or metadata to understand the column names and their meanings accurately.
