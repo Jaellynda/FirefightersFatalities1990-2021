@@ -1,4 +1,4 @@
-# FirefightersFatalities1990-2021
+ # FirefightersFatalities1990-2021
   The U.S. Fire Administration diligently monitors and compiles data regarding the causes of on-duty firefighter fatalities within the United States. They undertake an annual comprehensive analysis to pinpoint specific challenges, enabling them to strategically channel their efforts towards saving lives
 The U.S. Fire Administration diligently monitors and compiles data regarding the causes of on-duty firefighter fatalities within the United States. They undertake an annual comprehensive analysis to pinpoint specific challenges, enabling them to strategically channel their efforts towards devising effective solutions aimed at diminishing firefighter fatalities in the years to come. This invaluable data also serves as a yardstick to gauge the efficacy of programs geared towards enhancing firefighter health and safety.
 
